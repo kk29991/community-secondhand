@@ -1,0 +1,240 @@
+/* ==========================================================================
+   全局样式 + 社区二手街主题 (主色 #ff6700)
+   ========================================================================== */
+
+:root {
+  /* Element Plus 主色覆盖为品牌主色 */
+  --el-color-primary: #ff6700;
+  --el-color-primary-light-3: #ff8f40;
+  --el-color-primary-light-5: #ffb380;
+  --el-color-primary-light-7: #ffd6b3;
+  --el-color-primary-light-8: #ffe5cc;
+  --el-color-primary-light-9: #fff2e6;
+  --el-color-primary-dark-2: #cc5200;
+
+  --el-color-danger: #ff4d4f;
+  --el-color-success: #52c41a;
+  --el-color-warning: #faad14;
+
+  --mall-primary: #ff6700;
+  --mall-primary-dark: #f25807;
+  --mall-price: #ff6700;
+  --mall-text: #333333;
+  --mall-text-sub: #757575;
+  --mall-text-light: #b0b0b0;
+  --mall-border: #e0e0e0;
+  --mall-bg: #f5f5f5;
+  --mall-radius: 8px;
+  --mall-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  --mall-shadow-hover: 0 12px 28px rgba(0, 0, 0, 0.14);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif;
+  font-size: 14px;
+  color: var(--mall-text);
+  background: var(--mall-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* ---------- 布局容器 ---------- */
+.mall-container {
+  width: 1226px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+/* ---------- 通用卡片 ---------- */
+.mall-card {
+  background: #fff;
+  border-radius: var(--mall-radius);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.mall-panel {
+  background: #fff;
+  border-radius: var(--mall-radius);
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+/* 区块标题: 左侧橙色竖条 */
+.mall-section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 22px;
+  font-weight: 400;
+  color: #333;
+  margin: 0 0 18px;
+}
+
+.mall-section-title .title-text {
+  position: relative;
+  padding-left: 14px;
+  line-height: 1.2;
+}
+
+.mall-section-title .title-text::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 22px;
+  border-radius: 2px;
+  background: var(--mall-primary);
+}
+
+/* ---------- 价格 ---------- */
+.mall-price {
+  color: var(--mall-price);
+  font-weight: 600;
+}
+
+.mall-price .symbol {
+  font-size: 14px;
+}
+
+.mall-price .num {
+  font-size: 22px;
+}
+
+.mall-price-old {
+  color: var(--mall-text-light);
+  text-decoration: line-through;
+  font-size: 13px;
+  margin-left: 6px;
+  font-weight: 400;
+}
+
+/* ---------- 页面标题条 ---------- */
+.mall-page-head {
+  background: #fff;
+  border-radius: var(--mall-radius);
+  padding: 18px 20px;
+  margin: 18px 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.mall-page-head h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* ---------- 空状态 ---------- */
+.mall-empty {
+  background: #fff;
+  border-radius: var(--mall-radius);
+  padding: 40px 0;
+}
+
+/* ---------- Element Plus 微调 ---------- */
+.el-button--primary {
+  --el-button-bg-color: var(--mall-primary);
+  --el-button-border-color: var(--mall-primary);
+  --el-button-hover-bg-color: var(--mall-primary-dark);
+  --el-button-hover-border-color: var(--mall-primary-dark);
+  --el-button-active-bg-color: var(--mall-primary-dark);
+  --el-button-active-border-color: var(--mall-primary-dark);
+}
+
+.el-button--primary.is-plain {
+  --el-button-bg-color: #fff;
+  --el-button-text-color: var(--mall-primary);
+}
+
+.el-tabs__item.is-active {
+  color: var(--mall-primary);
+}
+
+.el-tabs__active-bar {
+  background-color: var(--mall-primary);
+}
+
+.el-pagination.is-background .el-pager li.is-active {
+  background-color: var(--mall-primary);
+}
+
+.el-checkbox__input.is-checked .el-checkbox__inner,
+.el-checkbox__input.is-indeterminate .el-checkbox__inner {
+  background-color: var(--mall-primary);
+  border-color: var(--mall-primary);
+}
+
+.el-checkbox__input.is-checked + .el-checkbox__label {
+  color: var(--mall-text);
+}
+
+.el-rate__icon {
+  margin-right: 0;
+}
+
+.el-card {
+  --el-card-border-radius: var(--mall-radius);
+}
+
+.el-dialog {
+  border-radius: 12px;
+}
+
+/* ---------- 路由切换动画 ---------- */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.18s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+/* ---------- 滚动条 ---------- */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c8c8c8;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}

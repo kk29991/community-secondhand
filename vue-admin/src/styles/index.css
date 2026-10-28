@@ -1,0 +1,254 @@
+/* ===================================================================
+ * 全局样式 - 社区二手交易平台后台管理端
+ * 主色: #ff6700, 浅灰底 + 白色卡片
+ * =================================================================== */
+
+:root {
+  /* Element Plus 主题色覆盖为品牌主色 */
+  --el-color-primary: #ff6700;
+  --el-color-primary-light-3: #ff8f45;
+  --el-color-primary-light-5: #ffab73;
+  --el-color-primary-light-7: #ffc7a1;
+  --el-color-primary-light-8: #ffd5b8;
+  --el-color-primary-light-9: #fff0e6;
+  --el-color-primary-dark-2: #cc5200;
+
+  --admin-bg: #f5f6f8;
+  --admin-card-radius: 10px;
+  --admin-border: #ebeef5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+    Arial, sans-serif;
+  font-size: 14px;
+  color: #303133;
+  background-color: var(--admin-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ------------------------------------------------------- 通用页面骨架 */
+.page-container {
+  padding: 16px;
+}
+
+/* 白色卡片 */
+.card {
+  background: #fff;
+  border-radius: var(--admin-card-radius);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  padding: 18px;
+}
+
+.card + .card {
+  margin-top: 16px;
+}
+
+/* 查询工具条 */
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.toolbar .spacer {
+  flex: 1;
+}
+
+/* 表格底部页码 */
+.pager {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+/* 页面标题 */
+.page-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 16px;
+  padding-left: 10px;
+  border-left: 4px solid var(--el-color-primary);
+  line-height: 1.2;
+}
+
+/* 统计卡片 */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 16px;
+}
+
+.stat-card {
+  background: #fff;
+  border-radius: var(--admin-card-radius);
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.stat-card .stat-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.stat-card .stat-body {
+  min-width: 0;
+}
+
+.stat-card .stat-label {
+  font-size: 13px;
+  color: #909399;
+  margin-bottom: 6px;
+  white-space: nowrap;
+}
+
+.stat-card .stat-value {
+  font-size: 22px;
+  font-weight: 600;
+  color: #303133;
+  line-height: 1.1;
+}
+
+.stat-card .stat-value small {
+  font-size: 13px;
+  font-weight: 400;
+  color: #909399;
+  margin-left: 3px;
+}
+
+/* 图表容器 */
+.chart {
+  width: 100%;
+  height: 340px;
+}
+
+/* 表格里的商品缩略图 */
+.cell-thumb {
+  width: 46px;
+  height: 46px;
+  border-radius: 6px;
+  object-fit: cover;
+  border: 1px solid var(--admin-border);
+  background: #fafafa;
+  cursor: pointer;
+  display: block;
+}
+
+.cell-product {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cell-product .cell-product-info {
+  min-width: 0;
+}
+
+.cell-product .cell-product-name {
+  font-size: 13px;
+  color: #303133;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-height: 1.35;
+}
+
+.cell-product .cell-product-sub {
+  font-size: 12px;
+  color: #909399;
+  margin-top: 2px;
+}
+
+.text-muted {
+  color: #909399;
+}
+
+.text-price {
+  color: var(--el-color-primary);
+  font-weight: 600;
+}
+
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 表格内的图片组 */
+.review-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.review-images img {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid var(--admin-border);
+  cursor: pointer;
+}
+
+/* el-table 让表头稍微灰一点 */
+.el-table th.el-table__cell {
+  background-color: #fafafa !important;
+  color: #606266;
+  font-weight: 600;
+}
+
+/* 滚动条美化 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c9ccd4;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8abb2;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}

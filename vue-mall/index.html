@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23ff6700'/%3E%3Ctext x='16' y='22' font-size='18' font-family='sans-serif' font-weight='700' fill='%23fff' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="社区二手街 - 社区二手交易平台用户前台" />
+    <title>社区二手街 - 社区二手交易平台</title>
+    <style>
+      #boot-fallback {
+        font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
+        padding: 60px 20px;
+        text-align: center;
+        color: #999;
+        font-size: 14px;
+      }
+      #boot-error {
+        display: none;
+        margin: 24px auto;
+        max-width: 860px;
+        padding: 20px 24px;
+        background: #fff2f0;
+        border: 1px solid #ffccc7;
+        border-radius: 8px;
+        color: #a8071a;
+        font-size: 13px;
+        line-height: 1.7;
+        text-align: left;
+        white-space: pre-wrap;
+        word-break: break-all;
+      }
+      #boot-error h3 {
+        margin: 0 0 10px;
+        font-size: 15px;
+        color: #cf1322;
+      }
+      #boot-error .tip {
+        margin-top: 14px;
+        padding-top: 12px;
+        border-top: 1px dashed #ffccc7;
+        color: #8c4a4a;
+      }
+    </style>
+    <script>
+      /**
+       * 启动期错误兜底。
+       *
+       * 作用: 前端一旦出现脚本错误, 原本只会白屏并在 Console 里留一行报错, 很难排查。
+       * 这里把错误直接渲染到页面上, 便于快速定位(尤其是无法打开 Console 的场景)。
+       */
+      (function () {
+        var shown = false
+        function showError(title, detail) {
+          if (shown) return
+          shown = true
+          var box = document.getElementById('boot-error')
+          var fb = document.getElementById('boot-fallback')
+          if (fb) fb.style.display = 'none'
+          if (!box) {
+            box = document.createElement('div')
+            box.id = 'boot-error'
+            document.body.appendChild(box)
+          }
+          box.style.display = 'block'
+          box.innerHTML =
+            '<h3>' + title + '</h3>' +
+            '<div>' + String(detail).replace(/[<>&]/g, function (c) {
+              return { '<': '&lt;', '>': '&gt;', '&': '&amp;' }[c]
+            }) + '</div>' +
+            '<div class="tip">排查建议: 确认后端已在 9090 端口运行; 打开 F12 Console 查看完整堆栈。</div>'
+        }
+
+        window.addEventListener('error', function (e) {
+          // 资源加载失败(如图片)不当作致命错误
+          if (e && e.target && e.target !== window && e.target.tagName) return
+          var msg = e && e.message ? e.message : '未知脚本错误'
+          var where = e && e.filename ? e.filename + ':' + e.lineno + ':' + e.colno : ''
+          showError('页面脚本执行出错', msg + (where ? '\n' + where : ''))
+        })
+
+        window.addEventListener('unhandledrejection', function (e) {
+          var r = e && e.reason
+          showError('存在未处理的异步错误', (r && (r.stack || r.message)) || String(r))
+        })
+
+        // 应用挂载成功后移除兜底
+        window.__clearBootFallback = function () {
+          var fb = document.getElementById('boot-fallback')
+          if (fb) fb.style.display = 'none'
+        }
+
+        // 供 main.js 主动上报启动期异常
+        window.__showBootError = function (err) {
+          var msg = err && (err.stack || err.message) ? (err.stack || err.message) : String(err)
+          showError('应用启动失败', msg)
+        }
+
+        // 兜底超时: 若若干秒后仍未挂载, 给出可见提示而不是无限白屏
+        setTimeout(function () {
+          var app = document.getElementById('app')
+          if (app && app.children.length === 0 && !shown) {
+            showError(
+              '页面未能完成初始化',
+              '应用在 8 秒内没有渲染任何内容。通常是模块加载失败或启动期抛错。'
+            )
+          }
+        }, 8000)
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="app">
+      <div id="boot-fallback">正在加载社区二手街…</div>
+    </div>
+    <div id="boot-error"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

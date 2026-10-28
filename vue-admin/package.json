@@ -1,0 +1,27 @@
+{
+  "name": "vue-admin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "购物商城系统 - 后台管理端 (商家 / 超级管理员)",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "build:vite": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "axios": "^1.7.7",
+    "echarts": "^5.5.1",
+    "element-plus": "^2.7.8",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.38",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "terser": "^5.51.2",
+    "vite": "^5.4.2"
+  }
+}

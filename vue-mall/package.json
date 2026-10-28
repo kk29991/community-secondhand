@@ -1,0 +1,29 @@
+{
+  "name": "vue-mall",
+  "version": "1.0.0",
+  "private": true,
+  "description": "购物商城系统 - 用户商城前台 (Vue3 + Vite + Element Plus)",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "vite preview",
+    "verify:static": "node --experimental-vm-modules --no-warnings scripts/verify/static-check.mjs && node --no-warnings scripts/verify/routes-check.mjs",
+    "verify:sfc": "node --no-warnings scripts/verify/sfc-compile.mjs",
+    "verify:api": "node --no-warnings --import ./scripts/verify/register.mjs scripts/verify/api-test.mjs",
+    "verify:auth": "node --no-warnings --import ./scripts/verify/register.mjs scripts/verify/store-test.mjs"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "axios": "^1.7.7",
+    "element-plus": "^2.7.8",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.38",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "terser": "^5.51.2",
+    "vite": "^5.4.8"
+  }
+}

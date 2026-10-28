@@ -1,0 +1,19 @@
+# =============================================================
+#  本地配置示例 —— 复制为 application-local.yml 后填入真实密钥
+#  该文件已被 .gitignore 忽略, 不会被提交。
+#
+#  推荐优先使用环境变量(无需本文件):
+#     PowerShell :  $env:DASHSCOPE_API_KEY="sk-xxxx"
+#     cmd        :  set DASHSCOPE_API_KEY=sk-xxxx
+#     Linux/macOS:  export DASHSCOPE_API_KEY=sk-xxxx
+#
+#  注意: mall.ai.api-key 在 application.yml 中写的是 ${DASHSCOPE_API_KEY:},
+#        环境变量优先; 只有在环境变量为空时, 这里配置的值才会生效。
+# =============================================================
+
+mall:
+  ai:
+    # 百炼(Model Studio)控制台创建的 API Key, 形如 sk-xxxxxxxx
+    # 获取地址: https://bailian.console.aliyun.com/  ->  API-KEY 管理
+    # 切勿把真实 key 提交到代码仓库
+    api-key: "sk-替换成你自己的key"

@@ -1,0 +1,83 @@
+server:
+  port: 9090
+  servlet:
+    # 所有接口的统一前缀由 context-path 提供:
+    # 这样 controller、拦截器、接口文档(doc.html)、springdoc 的 /v3/api-docs、
+    # 上传文件静态映射会天然统一在 /api 下, 不会出现「文档页能开但取不到接口数据」。
+    context-path: /api
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+spring:
+  application:
+    name: shopping-mall-server
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/shopping_mall?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=convertToNull
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:}
+    hikari:
+      minimum-idle: 5
+      maximum-pool-size: 20
+      connection-timeout: 30000
+      idle-timeout: 600000
+      max-lifetime: 1800000
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 20MB
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Shanghai
+    default-property-inclusion: always
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    # 需要排查 SQL 时把下面一行换成 org.apache.ibatis.logging.stdout.StdOutImpl
+    log-impl: org.apache.ibatis.logging.nologging.NoLoggingImpl
+  global-config:
+    banner: false
+    db-config:
+      id-type: auto
+      logic-delete-field: delFlag
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+
+mall:
+  jwt:
+    # HS256 要求密钥 >= 32 字节
+    secret: shopping-mall-jwt-secret-key-2025-please-change-in-production
+    expire-hours: 168
+  upload:
+    path: ./uploads
+    url-prefix: http://localhost:9090/api/uploads
+  ai:
+    # 通义千问 / 百炼(DashScope)。密钥只从环境变量或本地配置读取, 绝不写进代码仓库。
+    # 取值优先级: DASHSCOPE_API_KEY 环境变量 > application-local.yml 中的 mall.ai.api-key
+    api-key: ${DASHSCOPE_API_KEY:}
+    # OpenAI 兼容模式地址(已实测可达); 国际站可改为 https://dashscope-intl.aliyuncs.com/compatible-mode/v1
+    base-url: ${DASHSCOPE_BASE_URL:https://dashscope.aliyuncs.com/compatible-mode/v1}
+    model: ${DASHSCOPE_MODEL:qwen-plus}
+    # 单次请求超时(秒)与最大生成 token
+    timeout-seconds: 60
+    max-tokens: 1024
+    temperature: 0.6
+    # 注入提示词的商品条数上限
+    context-product-limit: 8
+
+# 接口文档(springdoc 官方 UI, 兼容 Spring Boot 3.5)
+# 访问地址: http://localhost:9090/api/swagger-ui/index.html
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    # 按接口路径字母序展示, 便于查找
+    operations-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
+
+logging:
+  level:
+    com.mall: debug

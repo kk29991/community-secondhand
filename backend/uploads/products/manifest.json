@@ -1,0 +1,1438 @@
+{
+  "generatedAt": "2026-09-16T11:58:20.410Z",
+  "size": 800,
+  "catalog": [
+    {
+      "key": "phone-flagship",
+      "keywords": [
+        "mobile-phone",
+        "smartphone",
+        "phone"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/phone-flagship/main.jpg",
+          "bytes": 72422,
+          "cached": true
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/phone-flagship/gallery-1.jpg",
+          "bytes": 59159,
+          "cached": true
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/phone-flagship/gallery-2.jpg",
+          "bytes": 64681,
+          "cached": true
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/phone-flagship/gallery-3.jpg",
+          "bytes": 165760,
+          "cached": true
+        }
+      ]
+    },
+    {
+      "key": "phone-midrange",
+      "keywords": [
+        "mobile-phone",
+        "phone",
+        "cellphone"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/phone-midrange/main.jpg",
+          "bytes": 36503,
+          "cached": true
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/phone-midrange/gallery-1.jpg",
+          "bytes": 66166,
+          "cached": true
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/phone-midrange/gallery-2.jpg",
+          "bytes": 165760,
+          "cached": true
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/phone-midrange/gallery-3.jpg",
+          "bytes": 72422,
+          "cached": true
+        }
+      ]
+    },
+    {
+      "key": "phone-budget",
+      "keywords": [
+        "phone",
+        "mobile-phone"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/phone-budget/main.jpg",
+          "bytes": 98597,
+          "cached": true
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/phone-budget/gallery-1.jpg",
+          "bytes": 50021,
+          "cached": true
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/phone-budget/gallery-2.jpg",
+          "bytes": 165760,
+          "cached": true
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/phone-budget/gallery-3.jpg",
+          "bytes": 165760,
+          "cached": true
+        }
+      ]
+    },
+    {
+      "key": "phone-case",
+      "keywords": [
+        "phone-case",
+        "phone",
+        "mobile-phone"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/phone-case/main.jpg",
+          "bytes": 76337,
+          "cached": true
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/phone-case/gallery-1.jpg",
+          "bytes": 136062,
+          "cached": true
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/phone-case/gallery-2.jpg",
+          "bytes": 165760,
+          "cached": true
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/phone-case/gallery-3.jpg",
+          "bytes": 112593,
+          "cached": true
+        }
+      ]
+    },
+    {
+      "key": "phone-charger",
+      "keywords": [
+        "charger",
+        "usb",
+        "cable"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/phone-charger/main.jpg",
+          "bytes": 67198,
+          "cached": true
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/phone-charger/gallery-1.jpg",
+          "bytes": 165760,
+          "cached": true
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/phone-charger/gallery-2.jpg",
+          "bytes": 165760,
+          "cached": true
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/phone-charger/gallery-3.jpg",
+          "bytes": 165760,
+          "cached": true
+        }
+      ]
+    },
+    {
+      "key": "powerbank",
+      "keywords": [
+        "powerbank",
+        "battery",
+        "charger"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/powerbank/main.jpg",
+          "bytes": 75969,
+          "cached": true
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/powerbank/gallery-1.jpg",
+          "bytes": 165760,
+          "cached": true
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/powerbank/gallery-2.jpg",
+          "bytes": 165760,
+          "cached": true
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/powerbank/gallery-3.jpg",
+          "bytes": 54856,
+          "cached": true
+        }
+      ]
+    },
+    {
+      "key": "laptop-ultra",
+      "keywords": [
+        "laptop",
+        "notebook"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/laptop-ultra/main.jpg",
+          "bytes": 131051,
+          "cached": true
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/laptop-ultra/gallery-1.jpg",
+          "bytes": 31540,
+          "cached": true
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/laptop-ultra/gallery-2.jpg",
+          "bytes": 43346,
+          "cached": true
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/laptop-ultra/gallery-3.jpg",
+          "bytes": 91316,
+          "cached": true
+        }
+      ]
+    },
+    {
+      "key": "laptop-gaming",
+      "keywords": [
+        "laptop",
+        "computer"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/laptop-gaming/main.jpg",
+          "bytes": 41342,
+          "cached": true
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/laptop-gaming/gallery-1.jpg",
+          "bytes": 81066,
+          "cached": true
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/laptop-gaming/gallery-2.jpg",
+          "bytes": 73845,
+          "cached": true
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/laptop-gaming/gallery-3.jpg",
+          "bytes": 79233,
+          "cached": true
+        }
+      ]
+    },
+    {
+      "key": "tablet",
+      "keywords": [
+        "tablet",
+        "ipad"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/tablet/main.jpg",
+          "bytes": 28954,
+          "cached": true
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/tablet/gallery-1.jpg",
+          "bytes": 148727,
+          "cached": true
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/tablet/gallery-2.jpg",
+          "bytes": 84194,
+          "cached": true
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/tablet/gallery-3.jpg",
+          "bytes": 64221,
+          "cached": true
+        }
+      ]
+    },
+    {
+      "key": "smartwatch",
+      "keywords": [
+        "watch",
+        "wristwatch",
+        "smartwatch"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/smartwatch/main.jpg",
+          "bytes": 61881,
+          "cached": true
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/smartwatch/gallery-1.jpg",
+          "bytes": 54159,
+          "cached": true
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/smartwatch/gallery-2.jpg",
+          "bytes": 165760,
+          "cached": true
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/smartwatch/gallery-3.jpg",
+          "bytes": 165760,
+          "cached": true
+        }
+      ]
+    },
+    {
+      "key": "earbuds",
+      "keywords": [
+        "earbuds",
+        "earphone",
+        "headphones"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/earbuds/main.jpg",
+          "bytes": 29118,
+          "cached": true
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/earbuds/gallery-1.jpg",
+          "bytes": 37738,
+          "cached": true
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/earbuds/gallery-2.jpg",
+          "bytes": 50400,
+          "cached": true
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/earbuds/gallery-3.jpg",
+          "bytes": 65076,
+          "cached": true
+        }
+      ]
+    },
+    {
+      "key": "headphones",
+      "keywords": [
+        "headphones",
+        "headset"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/headphones/main.jpg",
+          "bytes": 112306,
+          "cached": true
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/headphones/gallery-1.jpg",
+          "bytes": 127153,
+          "cached": true
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/headphones/gallery-2.jpg",
+          "bytes": 39728,
+          "cached": true
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/headphones/gallery-3.jpg",
+          "bytes": 68415,
+          "cached": true
+        }
+      ]
+    },
+    {
+      "key": "monitor",
+      "keywords": [
+        "monitor",
+        "screen"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/monitor/main.jpg",
+          "bytes": 159064,
+          "cached": true
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/monitor/gallery-1.jpg",
+          "bytes": 94462,
+          "cached": true
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/monitor/gallery-2.jpg",
+          "bytes": 165760,
+          "cached": true
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/monitor/gallery-3.jpg",
+          "bytes": 165760,
+          "cached": true
+        }
+      ]
+    },
+    {
+      "key": "keyboard",
+      "keywords": [
+        "keyboard",
+        "computer-keyboard"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/keyboard/main.jpg",
+          "bytes": 165760,
+          "cached": true
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/keyboard/gallery-1.jpg",
+          "bytes": 165760,
+          "cached": true
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/keyboard/gallery-2.jpg",
+          "bytes": 74569,
+          "cached": true
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/keyboard/gallery-3.jpg",
+          "bytes": 58191,
+          "cached": true
+        }
+      ]
+    },
+    {
+      "key": "router",
+      "keywords": [
+        "router",
+        "wifi"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/router/main.jpg",
+          "bytes": 53448,
+          "cached": true
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/router/gallery-1.jpg",
+          "bytes": 165760,
+          "cached": true
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/router/gallery-2.jpg",
+          "bytes": 44154,
+          "cached": true
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/router/gallery-3.jpg",
+          "bytes": 46545,
+          "cached": true
+        }
+      ]
+    },
+    {
+      "key": "printer",
+      "keywords": [
+        "printer"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/printer/main.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/printer?lock=46163",
+          "keyword": "printer"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/printer/gallery-1.jpg",
+          "bytes": 68444,
+          "sourceUrl": "https://loremflickr.com/800/800/printer?lock=15228",
+          "keyword": "printer"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/printer/gallery-2.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/printer?lock=15229",
+          "keyword": "printer"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/printer/gallery-3.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/printer?lock=15230",
+          "keyword": "printer"
+        }
+      ]
+    },
+    {
+      "key": "camera",
+      "keywords": [
+        "camera",
+        "photography"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/camera/main.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/photography?lock=96638",
+          "keyword": "photography"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/camera/gallery-1.jpg",
+          "bytes": 80162,
+          "sourceUrl": "https://loremflickr.com/800/800/photography?lock=11953",
+          "keyword": "photography"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/camera/gallery-2.jpg",
+          "bytes": 87304,
+          "sourceUrl": "https://loremflickr.com/800/800/photography?lock=11954",
+          "keyword": "photography"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/camera/gallery-3.jpg",
+          "bytes": 108488,
+          "sourceUrl": "https://loremflickr.com/800/800/photography?lock=11955",
+          "keyword": "photography"
+        }
+      ]
+    },
+    {
+      "key": "med-cold",
+      "keywords": [
+        "medicine",
+        "pill",
+        "pharmacy"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/med-cold/main.jpg",
+          "bytes": 43748,
+          "sourceUrl": "https://loremflickr.com/800/800/medicine?lock=89214",
+          "keyword": "medicine"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/med-cold/gallery-1.jpg",
+          "bytes": 118984,
+          "sourceUrl": "https://loremflickr.com/800/800/medicine?lock=94929",
+          "keyword": "medicine"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/med-cold/gallery-2.jpg",
+          "bytes": 107297,
+          "sourceUrl": "https://loremflickr.com/800/800/medicine?lock=94930",
+          "keyword": "medicine"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/med-cold/gallery-3.jpg",
+          "bytes": 56801,
+          "sourceUrl": "https://loremflickr.com/800/800/medicine?lock=94931",
+          "keyword": "medicine"
+        }
+      ]
+    },
+    {
+      "key": "med-vitamin",
+      "keywords": [
+        "vitamin",
+        "supplement",
+        "pill"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/med-vitamin/main.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/vitamin?lock=20266",
+          "keyword": "vitamin"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/med-vitamin/gallery-1.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/vitamin?lock=91781",
+          "keyword": "vitamin"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/med-vitamin/gallery-2.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/vitamin?lock=91782",
+          "keyword": "vitamin"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/med-vitamin/gallery-3.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/vitamin?lock=91783",
+          "keyword": "vitamin"
+        }
+      ]
+    },
+    {
+      "key": "med-thermometer",
+      "keywords": [
+        "thermometer",
+        "medical"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/med-thermometer/main.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/thermometer?lock=33982",
+          "keyword": "thermometer"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/med-thermometer/gallery-1.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/thermometer?lock=26897",
+          "keyword": "thermometer"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/med-thermometer/gallery-2.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/thermometer?lock=26898",
+          "keyword": "thermometer"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/med-thermometer/gallery-3.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/thermometer?lock=26899",
+          "keyword": "thermometer"
+        }
+      ]
+    },
+    {
+      "key": "med-firstaid",
+      "keywords": [
+        "first-aid",
+        "bandage",
+        "medical"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/med-firstaid/main.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/first-aid?lock=65190",
+          "keyword": "first-aid"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/med-firstaid/gallery-1.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/first-aid?lock=71305",
+          "keyword": "first-aid"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/med-firstaid/gallery-2.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/first-aid?lock=71306",
+          "keyword": "first-aid"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/med-firstaid/gallery-3.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/first-aid?lock=71307",
+          "keyword": "first-aid"
+        }
+      ]
+    },
+    {
+      "key": "med-mask",
+      "keywords": [
+        "face-mask",
+        "mask",
+        "medical"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/med-mask/main.jpg",
+          "bytes": 120713,
+          "sourceUrl": "https://loremflickr.com/800/800/face-mask?lock=47494",
+          "keyword": "face-mask"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/med-mask/gallery-1.jpg",
+          "bytes": 137757,
+          "sourceUrl": "https://loremflickr.com/800/800/face-mask?lock=15209",
+          "keyword": "face-mask"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/med-mask/gallery-2.jpg",
+          "bytes": 135046,
+          "sourceUrl": "https://loremflickr.com/800/800/face-mask?lock=15210",
+          "keyword": "face-mask"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/med-mask/gallery-3.jpg",
+          "bytes": 175596,
+          "sourceUrl": "https://loremflickr.com/800/800/face-mask?lock=15211",
+          "keyword": "face-mask"
+        }
+      ]
+    },
+    {
+      "key": "med-massager",
+      "keywords": [
+        "massage",
+        "massager",
+        "health"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/med-massager/main.jpg",
+          "bytes": 77576,
+          "sourceUrl": "https://loremflickr.com/800/800/massager?lock=79937",
+          "keyword": "massager"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/med-massager/gallery-1.jpg",
+          "bytes": 67163,
+          "sourceUrl": "https://loremflickr.com/800/800/massager?lock=61102",
+          "keyword": "massager"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/med-massager/gallery-2.jpg",
+          "bytes": 49547,
+          "sourceUrl": "https://loremflickr.com/800/800/massager?lock=61103",
+          "keyword": "massager"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/med-massager/gallery-3.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/massager?lock=61104",
+          "keyword": "massager"
+        }
+      ]
+    },
+    {
+      "key": "med-bp",
+      "keywords": [
+        "blood-pressure",
+        "sphygmomanometer",
+        "medical"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/med-bp/main.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/blood-pressure?lock=6376",
+          "keyword": "blood-pressure"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/med-bp/gallery-1.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/blood-pressure?lock=84391",
+          "keyword": "blood-pressure"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/med-bp/gallery-2.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/blood-pressure?lock=84392",
+          "keyword": "blood-pressure"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/med-bp/gallery-3.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/blood-pressure?lock=84393",
+          "keyword": "blood-pressure"
+        }
+      ]
+    },
+    {
+      "key": "cloth-sweater",
+      "keywords": [
+        "sweater",
+        "knitwear"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/cloth-sweater/main.jpg",
+          "bytes": 62363,
+          "sourceUrl": "https://loremflickr.com/800/800/sweater?lock=1767",
+          "keyword": "sweater"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/cloth-sweater/gallery-1.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/sweater?lock=27432",
+          "keyword": "sweater"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/cloth-sweater/gallery-2.jpg",
+          "bytes": 111494,
+          "sourceUrl": "https://loremflickr.com/800/800/sweater?lock=27433",
+          "keyword": "sweater"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/cloth-sweater/gallery-3.jpg",
+          "bytes": 110671,
+          "sourceUrl": "https://loremflickr.com/800/800/sweater?lock=27434",
+          "keyword": "sweater"
+        }
+      ]
+    },
+    {
+      "key": "cloth-dress",
+      "keywords": [
+        "dress",
+        "fashion"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/cloth-dress/main.jpg",
+          "bytes": 51671,
+          "sourceUrl": "https://loremflickr.com/800/800/dress?lock=54589",
+          "keyword": "dress"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/cloth-dress/gallery-1.jpg",
+          "bytes": 124227,
+          "sourceUrl": "https://loremflickr.com/800/800/dress?lock=41554",
+          "keyword": "dress"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/cloth-dress/gallery-2.jpg",
+          "bytes": 70571,
+          "sourceUrl": "https://loremflickr.com/800/800/dress?lock=41555",
+          "keyword": "dress"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/cloth-dress/gallery-3.jpg",
+          "bytes": 62388,
+          "sourceUrl": "https://loremflickr.com/800/800/dress?lock=41556",
+          "keyword": "dress"
+        }
+      ]
+    },
+    {
+      "key": "cloth-jeans",
+      "keywords": [
+        "jeans",
+        "denim"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/cloth-jeans/main.jpg",
+          "bytes": 110557,
+          "sourceUrl": "https://loremflickr.com/800/800/jeans?lock=35313",
+          "keyword": "jeans"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/cloth-jeans/gallery-1.jpg",
+          "bytes": 115876,
+          "sourceUrl": "https://loremflickr.com/800/800/jeans?lock=26878",
+          "keyword": "jeans"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/cloth-jeans/gallery-2.jpg",
+          "bytes": 108182,
+          "sourceUrl": "https://loremflickr.com/800/800/jeans?lock=26879",
+          "keyword": "jeans"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/cloth-jeans/gallery-3.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/jeans?lock=26880",
+          "keyword": "jeans"
+        }
+      ]
+    },
+    {
+      "key": "cloth-shoes",
+      "keywords": [
+        "shoes",
+        "sneakers"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/cloth-shoes/main.jpg",
+          "bytes": 153651,
+          "sourceUrl": "https://loremflickr.com/800/800/shoes?lock=3790",
+          "keyword": "shoes"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/cloth-shoes/gallery-1.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/shoes?lock=99905",
+          "keyword": "shoes"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/cloth-shoes/gallery-2.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/shoes?lock=99906",
+          "keyword": "shoes"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/cloth-shoes/gallery-3.jpg",
+          "bytes": 223734,
+          "sourceUrl": "https://loremflickr.com/800/800/shoes?lock=99907",
+          "keyword": "shoes"
+        }
+      ]
+    },
+    {
+      "key": "cloth-bag",
+      "keywords": [
+        "handbag",
+        "bag"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/cloth-bag/main.jpg",
+          "bytes": 130815,
+          "sourceUrl": "https://loremflickr.com/800/800/handbag?lock=38542",
+          "keyword": "handbag"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/cloth-bag/gallery-1.jpg",
+          "bytes": 123167,
+          "sourceUrl": "https://loremflickr.com/800/800/handbag?lock=55457",
+          "keyword": "handbag"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/cloth-bag/gallery-2.jpg",
+          "bytes": 101742,
+          "sourceUrl": "https://loremflickr.com/800/800/handbag?lock=55458",
+          "keyword": "handbag"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/cloth-bag/gallery-3.jpg",
+          "bytes": 97006,
+          "sourceUrl": "https://loremflickr.com/800/800/handbag?lock=55459",
+          "keyword": "handbag"
+        }
+      ]
+    },
+    {
+      "key": "beauty-serum",
+      "keywords": [
+        "skincare",
+        "serum"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/beauty-serum/main.jpg",
+          "bytes": 39181,
+          "sourceUrl": "https://loremflickr.com/800/800/skincare?lock=77312",
+          "keyword": "skincare"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/beauty-serum/gallery-1.jpg",
+          "bytes": 64539,
+          "sourceUrl": "https://loremflickr.com/800/800/skincare?lock=39727",
+          "keyword": "skincare"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/beauty-serum/gallery-2.jpg",
+          "bytes": 35907,
+          "sourceUrl": "https://loremflickr.com/800/800/skincare?lock=39728",
+          "keyword": "skincare"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/beauty-serum/gallery-3.jpg",
+          "bytes": 39181,
+          "sourceUrl": "https://loremflickr.com/800/800/skincare?lock=39729",
+          "keyword": "skincare"
+        }
+      ]
+    },
+    {
+      "key": "beauty-perfume",
+      "keywords": [
+        "perfume",
+        "fragrance"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/beauty-perfume/main.jpg",
+          "bytes": 83467,
+          "sourceUrl": "https://loremflickr.com/800/800/perfume?lock=76332",
+          "keyword": "perfume"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/beauty-perfume/gallery-1.jpg",
+          "bytes": 184588,
+          "sourceUrl": "https://loremflickr.com/800/800/perfume?lock=71747",
+          "keyword": "perfume"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/beauty-perfume/gallery-2.jpg",
+          "bytes": 154470,
+          "sourceUrl": "https://loremflickr.com/800/800/perfume?lock=71748",
+          "keyword": "perfume"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/beauty-perfume/gallery-3.jpg",
+          "bytes": 133415,
+          "sourceUrl": "https://loremflickr.com/800/800/perfume?lock=71749",
+          "keyword": "perfume"
+        }
+      ]
+    },
+    {
+      "key": "beauty-lipstick",
+      "keywords": [
+        "lipstick",
+        "makeup"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/beauty-lipstick/main.jpg",
+          "bytes": 40687,
+          "sourceUrl": "https://loremflickr.com/800/800/lipstick?lock=51143",
+          "keyword": "lipstick"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/beauty-lipstick/gallery-1.jpg",
+          "bytes": 178874,
+          "sourceUrl": "https://loremflickr.com/800/800/lipstick?lock=87208",
+          "keyword": "lipstick"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/beauty-lipstick/gallery-2.jpg",
+          "bytes": 135522,
+          "sourceUrl": "https://loremflickr.com/800/800/lipstick?lock=87209",
+          "keyword": "lipstick"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/beauty-lipstick/gallery-3.jpg",
+          "bytes": 108528,
+          "sourceUrl": "https://loremflickr.com/800/800/lipstick?lock=87210",
+          "keyword": "lipstick"
+        }
+      ]
+    },
+    {
+      "key": "beauty-shampoo",
+      "keywords": [
+        "shampoo",
+        "haircare"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/beauty-shampoo/main.jpg",
+          "bytes": 56673,
+          "sourceUrl": "https://loremflickr.com/800/800/shampoo?lock=38135",
+          "keyword": "shampoo"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/beauty-shampoo/gallery-1.jpg",
+          "bytes": 81035,
+          "sourceUrl": "https://loremflickr.com/800/800/shampoo?lock=91000",
+          "keyword": "shampoo"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/beauty-shampoo/gallery-2.jpg",
+          "bytes": 59453,
+          "sourceUrl": "https://loremflickr.com/800/800/shampoo?lock=91001",
+          "keyword": "shampoo"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/beauty-shampoo/gallery-3.jpg",
+          "bytes": 152579,
+          "sourceUrl": "https://loremflickr.com/800/800/shampoo?lock=91002",
+          "keyword": "shampoo"
+        }
+      ]
+    },
+    {
+      "key": "home-sofa",
+      "keywords": [
+        "sofa",
+        "couch"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/home-sofa/main.jpg",
+          "bytes": 84536,
+          "sourceUrl": "https://loremflickr.com/800/800/sofa?lock=61406",
+          "keyword": "sofa"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/home-sofa/gallery-1.jpg",
+          "bytes": 68326,
+          "sourceUrl": "https://loremflickr.com/800/800/sofa?lock=63921",
+          "keyword": "sofa"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/home-sofa/gallery-2.jpg",
+          "bytes": 83027,
+          "sourceUrl": "https://loremflickr.com/800/800/sofa?lock=63922",
+          "keyword": "sofa"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/home-sofa/gallery-3.jpg",
+          "bytes": 68039,
+          "sourceUrl": "https://loremflickr.com/800/800/sofa?lock=63923",
+          "keyword": "sofa"
+        }
+      ]
+    },
+    {
+      "key": "home-lamp",
+      "keywords": [
+        "lamp",
+        "lighting"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/home-lamp/main.jpg",
+          "bytes": 143966,
+          "sourceUrl": "https://loremflickr.com/800/800/lamp?lock=67967",
+          "keyword": "lamp"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/home-lamp/gallery-1.jpg",
+          "bytes": 91908,
+          "sourceUrl": "https://loremflickr.com/800/800/lamp?lock=23632",
+          "keyword": "lamp"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/home-lamp/gallery-2.jpg",
+          "bytes": 65151,
+          "sourceUrl": "https://loremflickr.com/800/800/lamp?lock=23633",
+          "keyword": "lamp"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/home-lamp/gallery-3.jpg",
+          "bytes": 84507,
+          "sourceUrl": "https://loremflickr.com/800/800/lamp?lock=23634",
+          "keyword": "lamp"
+        }
+      ]
+    },
+    {
+      "key": "home-kitchen",
+      "keywords": [
+        "kitchenware",
+        "kitchen"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/home-kitchen/main.jpg",
+          "bytes": 66116,
+          "sourceUrl": "https://loremflickr.com/800/800/kitchenware?lock=70703",
+          "keyword": "kitchenware"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/home-kitchen/gallery-1.jpg",
+          "bytes": 87857,
+          "sourceUrl": "https://loremflickr.com/800/800/kitchenware?lock=80768",
+          "keyword": "kitchenware"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/home-kitchen/gallery-2.jpg",
+          "bytes": 74385,
+          "sourceUrl": "https://loremflickr.com/800/800/kitchenware?lock=80769",
+          "keyword": "kitchenware"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/home-kitchen/gallery-3.jpg",
+          "bytes": 88810,
+          "sourceUrl": "https://loremflickr.com/800/800/kitchenware?lock=80770",
+          "keyword": "kitchenware"
+        }
+      ]
+    },
+    {
+      "key": "home-coffee",
+      "keywords": [
+        "coffee",
+        "coffee-maker"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/home-coffee/main.jpg",
+          "bytes": 82846,
+          "sourceUrl": "https://loremflickr.com/800/800/coffee?lock=29747",
+          "keyword": "coffee"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/home-coffee/gallery-1.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/coffee?lock=72412",
+          "keyword": "coffee"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/home-coffee/gallery-2.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/coffee?lock=72413",
+          "keyword": "coffee"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/home-coffee/gallery-3.jpg",
+          "bytes": 68115,
+          "sourceUrl": "https://loremflickr.com/800/800/coffee?lock=72414",
+          "keyword": "coffee"
+        }
+      ]
+    },
+    {
+      "key": "other-toy",
+      "keywords": [
+        "toy",
+        "toys"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/other-toy/main.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/toy?lock=70810",
+          "keyword": "toy"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/other-toy/gallery-1.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/toy?lock=99925",
+          "keyword": "toy"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/other-toy/gallery-2.jpg",
+          "bytes": 72102,
+          "sourceUrl": "https://loremflickr.com/800/800/toy?lock=99926",
+          "keyword": "toy"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/other-toy/gallery-3.jpg",
+          "bytes": 149599,
+          "sourceUrl": "https://loremflickr.com/800/800/toy?lock=99927",
+          "keyword": "toy"
+        }
+      ]
+    },
+    {
+      "key": "other-book",
+      "keywords": [
+        "book",
+        "books"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/other-book/main.jpg",
+          "bytes": 77043,
+          "sourceUrl": "https://loremflickr.com/800/800/book?lock=52319",
+          "keyword": "book"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/other-book/gallery-1.jpg",
+          "bytes": 52555,
+          "sourceUrl": "https://loremflickr.com/800/800/book?lock=68784",
+          "keyword": "book"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/other-book/gallery-2.jpg",
+          "bytes": 39121,
+          "sourceUrl": "https://loremflickr.com/800/800/book?lock=68785",
+          "keyword": "book"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/other-book/gallery-3.jpg",
+          "bytes": 230566,
+          "sourceUrl": "https://loremflickr.com/800/800/book?lock=68786",
+          "keyword": "book"
+        }
+      ]
+    },
+    {
+      "key": "other-bike",
+      "keywords": [
+        "bicycle",
+        "bike"
+      ],
+      "files": [
+        {
+          "variant": "main",
+          "file": "backend/uploads/products/other-bike/main.jpg",
+          "bytes": 165760,
+          "sourceUrl": "https://loremflickr.com/800/800/bicycle?lock=72503",
+          "keyword": "bicycle"
+        },
+        {
+          "variant": "gallery-1",
+          "file": "backend/uploads/products/other-bike/gallery-1.jpg",
+          "bytes": 145001,
+          "sourceUrl": "https://loremflickr.com/800/800/bicycle?lock=52568",
+          "keyword": "bicycle"
+        },
+        {
+          "variant": "gallery-2",
+          "file": "backend/uploads/products/other-bike/gallery-2.jpg",
+          "bytes": 123871,
+          "sourceUrl": "https://loremflickr.com/800/800/bicycle?lock=52569",
+          "keyword": "bicycle"
+        },
+        {
+          "variant": "gallery-3",
+          "file": "backend/uploads/products/other-bike/gallery-3.jpg",
+          "bytes": 42452,
+          "sourceUrl": "https://loremflickr.com/800/800/bicycle?lock=52570",
+          "keyword": "bicycle"
+        }
+      ]
+    }
+  ]
+}
